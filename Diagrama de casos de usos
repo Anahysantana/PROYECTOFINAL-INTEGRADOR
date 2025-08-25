@@ -1,0 +1,7 @@
+Diagrama de Casos de Uso
+Propósito: Representar las funcionalidades del software y la interacción del usuario.
+Elementos:
+Actor: Usuario
+Casos de uso: Registrar usuario, Calcular promedio de edad, Mostrar estadísticas de acceso a internet, Salir del programa
+Descripción:
+El usuario puede registrar sus datos, calcular estadísticas y salir del programa. Cada acción se ejecuta mediante funciones independientes en el código.
