@@ -1,116 +1,38 @@
 # PROYECTOFINAL-INTEGRADOR
+# Proyecto Integrador – Desarrollo de Software  
 
-1. Investigación y Selección de Diagramas
+## 📌 Datos del grupo  
+- Integrantes: Monica Santana  
+- Fecha: 24 de agosto del 2025
 
-El primer paso consiste en investigar los tipos de diagramas utilizados en el desarrollo de software para representar la funcionalidad y la arquitectura de aplicaciones. Los principales tipos de diagramas son:
+## 🎯 Objetivo del programa  
+El objetivo de este proyecto es diseñar y comenzar el desarrollo de un sistema de software que facilite la organización de actividades personales y académicas. La aplicación permitirá gestionar tareas, asignar recordatorios y generar reportes básicos, con el fin de mejorar la productividad y la administración del tiempo de los usuarios.  
 
-Diagramas de casos de uso: Representan la interacción entre los usuarios y el software, mostrando las funcionalidades que el sistema ofrecerá.
+## ⚙️ Funcionalidades principales  
+1. **Gestión de usuarios**: registro, inicio de sesión y recuperación de credenciales.  
+2. **Gestión de tareas**: creación, edición, eliminación y marcado de tareas como completadas.  
+3. **Recordatorios**: alertas configurables por fecha y hora.  
+4. **Clasificación de tareas**: organización por categorías (trabajo, estudios, personal, entre otros).  
+5. **Reportes**: visualización de pendientes, tareas completadas y próximas actividades.  
 
-Diagramas de flujo: Permiten visualizar el recorrido de la información y las decisiones dentro del programa.
+## 🧩 Diagramas utilizados  
+Durante la fase de análisis y diseño se emplean distintos tipos de diagramas:  
+- **Casos de uso (UML):** muestran actores y funcionalidades.  
+- **Diagramas de flujo:** representan los procesos internos.  
+- **Diagrama de clases (UML):** estructura de datos y relaciones.  
+- **Diagrama de arquitectura:** visión macro de la aplicación.  
 
-Diagramas de arquitectura: Presentan la estructura general del software y cómo los distintos módulos interactúan entre sí.
+## 🏗️ Arquitectura propuesta  
+La aplicación se plantea bajo un enfoque de **tres capas**:  
+1. **Capa de presentación:** interfaz de usuario en un framework web o móvil.  
+2. **Capa de lógica de negocio:** procesamiento de las funcionalidades en el backend.  
+3. **Capa de datos:** base de datos para almacenar información de usuarios y tareas.  
 
-Diagramas de secuencia (opcional): Muestran la interacción entre módulos a lo largo del tiempo.
+## 🛠️ Tecnologías a emplear  
+- **Frontend:** React o Flutter  
+- **Backend:** Node.js o Python Flask  
+- **Base de datos:** PostgreSQL o MySQL  
+- **Control de versiones:** Git y GitHub  
 
-Después de analizar los tipos existentes, se seleccionan los diagramas que mejor representen las funcionalidades y la arquitectura del software a desarrollar, priorizando claridad y comprensión.
-
-2. Selección del Software y Análisis del Problema
-
-El segundo paso consiste en definir el software a desarrollar. Para este proyecto se decidió crear un simulador interactivo que permita:
-
-Registrar usuarios con datos básicos: nombre, edad y acceso a internet.
-
-Calcular estadísticas y promedios de edad de los usuarios.
-
-Visualizar el impacto de la tecnología en diferentes áreas de la sociedad.
-
-En esta etapa no se desarrolla aún el código, pero se aplican los pasos de resolución de problemas:
-
-Definición del problema: Identificar cómo la tecnología afecta a distintos grupos sociales.
-
-Planificación de la solución: Determinar qué funcionalidades tendrá el software.
-
-Análisis de requerimientos: Establecer entradas, procesos y salidas del sistema.
-
-Esto asegura que los estudiantes comprendan claramente qué resolverá el software antes de pasar al desarrollo.
-
-3. Diseño de Funcionalidades
-
-En esta fase se detallan todas las funcionalidades que el software será capaz de ejecutar, representadas mediante diagramas de uso y flujo:
-
-Menú Principal: Permite al usuario elegir entre registrar un usuario, calcular promedio de edad, mostrar estadísticas o salir del programa.
-
-Registro de Usuarios: Función que solicita datos del usuario y los almacena en listas o diccionarios.
-
-Cálculo de Promedio de Edad: Función que recorre los datos de los usuarios y calcula la edad promedio.
-
-Estadísticas de Acceso a Internet: Función que analiza la cantidad de usuarios con y sin acceso y genera resultados porcentuales.
-
-Cada funcionalidad está diseñada para integrar los conocimientos de las 4 unidades de la asignatura: resolución de problemas, entorno de programación, condicionales y bucles, y funciones.
-
-4. Diseño de la Arquitectura de la Aplicación
-
-El cuarto paso consiste en diseñar la arquitectura del software a nivel macro, mostrando cómo trabajará el sistema:
-
-Interfaz de Usuario: Menú principal y opciones interactivas.
-
-Módulo de Procesamiento: Funciones para registrar usuarios, calcular promedios y generar estadísticas.
-
-Almacenamiento de Datos: Estructuras (listas o diccionarios) donde se guardan los datos de los usuarios.
-
-Este diagrama permite entender la estructura general del software, facilitando su desarrollo y mantenimiento.
-
-5. Inicio de Desarrollo y Configuración del Entorno
-
-Configuración de GitHub:
-
-Crear un repositorio para el proyecto.
-
-Subir código inicial y documentación al repositorio.
-
-Preparación del entorno de desarrollo:
-
-Instalar Python 3.x y un IDE (VS Code o PyCharm).
-
-Configurar carpetas para código (src/), documentación (docs/) y multimedia (media/).
-
-Creación de diagramas de flujo:
-
-Representar visualmente cómo se ejecutarán las funcionalidades principales.
-
-Inicio de codificación:
-
-Implementar funciones básicas y estructuras de datos.
-
-Realizar pruebas iniciales y depuración del código.
-
-Entrega de avance:
-
-Subir al repositorio un primer avance con el menú y las funciones básicas implementadas.
-
-6. Repositorio de GitHub
-
-El proyecto final debe estar en GitHub con la siguiente estructura y contenidos:
-
-Proyecto-Integrador/
-│
-├── src/                  # Código fuente
-│   └── main.py           # Programa principal
-│
-├── docs/                 # Documentación
-│   ├── diagramas/        # Diagramas de casos de uso, flujo y arquitectura
-│   └── cronograma.pdf    # Cronograma de desarrollo
-│
-├── media/                # Archivos multimedia
-│   ├── video_demo.mp4    # Video demostrativo
-│   └── presentacion.pptx # Presentación final
-│
-└── README.md             # Explicación del proyecto
-
-Fecha entrega 
-24 de agosto del 2025
-Integrante
-Monica Julissa Santana Bravo 
-Principales funcionalidades del software
-
-Fecha de entrega
+## 🚀 Estado actual del proyecto  
+El proyecto se encuentra en la fase de **análisis y diseño**. Se han definido las principales funcionalidades y se ha planteado la arquitectura de la aplicación. El repositorio incluye diagramas de referencia y un avance inicial en la codificación de los módulos básicos.  
