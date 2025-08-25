@@ -1,0 +1,14 @@
+Introducción
+
+El presente proyecto integrador tiene como finalidad aplicar los conocimientos adquiridos en el análisis, 
+diseño y desarrollo de software a través de un caso práctico. La propuesta consiste en la creación de un Sistema de Gestión de Tareas y Recordatorios,
+orientado a estudiantes y profesionales que buscan optimizar la administración de sus actividades diarias.
+
+La metodología seguida se basa en las etapas clásicas de la ingeniería de software: identificación del problema,
+análisis de requerimientos, diseño de funcionalidades, elaboración de diagramas de apoyo y definición de la arquitectura 
+de la aplicación. Posteriormente, se procede a la configuración del entorno de desarrollo y a la implementación de un prototipo inicial que incluye las funciones básicas del sistema.
+
+Este trabajo no solo permite afianzar competencias técnicas como el uso de diagramas UML, GitHub y frameworks de programación,
+sino que también fomenta habilidades de resolución de problemas, trabajo en equipo y organización de procesos. 
+Al final del proyecto, se espera contar con un repositorio documentado que muestre los diagramas,
+la arquitectura propuesta, el avance del código y la descripción clara de las funcionalidades del software.
