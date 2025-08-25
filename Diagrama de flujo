@@ -4,3 +4,27 @@ Propósito: Mostrar el flujo lógico del programa desde el inicio hasta la final
 Descripción:
 El programa inicia mostrando el menú, lee la opción seleccionada por el usuario, ejecuta la acción correspondiente y regresa al menú hasta que el usuario decida salir.
 Integrar el diagrama de flujo 
+
+Inicio
+   |
+Mostrar menú
+   |
+Leer opción
+   |
+   +-----------------------------+
+   |                             |
+Opción = 1?                     Opción = 2?
+   |                             |
+Registrar usuario           Calcular promedio
+   |                             |
+   +-----------------------------+
+   |
+Opción = 3?
+   |
+Mostrar estadísticas
+   |
+Opción = 4?
+   |
+   Fin
+   |
+Volver al menú
