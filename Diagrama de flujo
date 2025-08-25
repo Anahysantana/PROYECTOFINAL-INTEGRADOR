@@ -1,0 +1,6 @@
+Diagrama de Flujo
+
+Propósito: Mostrar el flujo lógico del programa desde el inicio hasta la finalización.
+Descripción:
+El programa inicia mostrando el menú, lee la opción seleccionada por el usuario, ejecuta la acción correspondiente y regresa al menú hasta que el usuario decida salir.
+Integrar el diagrama de flujo 
